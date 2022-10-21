@@ -5,10 +5,8 @@ on:
   pull_request:
     branches: [ main ]
   schedule:
-<<<<<<< HEAD
-=======
+
     # every 1st day of the month at 10:30
->>>>>>> 865d56ead8a6b9b5d49e5d6dcd12cb2c81f1e870
     - cron: '0 0 1,15 * *'
 
 jobs:
