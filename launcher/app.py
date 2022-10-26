@@ -18,7 +18,7 @@ class Launcher(MDApp):
     paths = ListProperty()
     logs = ListProperty()
     display_logs = BooleanProperty(False)
-
+    DEBUG = 1
     def log(self, log):
         print(log)
         self.logs.append(f"{datetime.now().strftime('%X.%f')}: {log}")
